@@ -54,3 +54,31 @@ Step 16
 You should now center the cat head.
 
 Give the .cat-head element a position property set to absolute. Set a value of 0 for the right, left, top, bottom properties, then set its margin property on all sides to auto. That's one way to center an element vertically and horizontally using CSS positioning.
+Step 17
+Remove the div element with class box because you don't need it anymore.
+Step 18
+Also, remove the .box CSS rule and its declarations because you don't need them anymore.
+Step 19
+Now you should work on the cat's ears. There will be a right and a left ear, and inside each, there will be an inner ear.
+
+Inside your .cat-head element, create a div element with the class cat-ears.
+Step 20
+Inside your .cat-ears element, create two div elements with the classes cat-left-ear and cat-right-ear respectively.
+Step 21
+Inside your .cat-left-ear element, create another div element with the class cat-left-inner-ear.
+Step 22
+Inside your .cat-right-ear element, create another div element with the class cat-right-inner-ear.
+Step 23
+You are going to make each ear look like a triangle.
+
+Using a class selector, give the .cat-left-ear element a left and right border of 35px solid transparent each. Also, set the bottom border to 70px solid #5e5e5e.
+Step 24
+Move the left ear into position by setting a position of absolute, a top of -26px, and a left of -31px.
+Step 25
+Those edges are too sharp for an ear. So, set the border-top-left-radius to 90px and the border-top-right-radius to 10px.
+Step 26
+To position the left ear properly, you can use CSS transform to rotate it in a certain degree.
+
+The transform property allows you to modify the shape, position, and size of an element without changing the layout or affecting the surrounding elements. It has functions such as translate(), rotate(), scale(), skew(), and matrix().
+
+Set the transform property to rotate(-45deg) and see what happens.
