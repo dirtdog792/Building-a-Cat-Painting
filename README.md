@@ -82,3 +82,47 @@ To position the left ear properly, you can use CSS transform to rotate it in a c
 The transform property allows you to modify the shape, position, and size of an element without changing the layout or affecting the surrounding elements. It has functions such as translate(), rotate(), scale(), skew(), and matrix().
 
 Set the transform property to rotate(-45deg) and see what happens.
+Step 27
+Now you can work on the right ear of the cat. You have the HTML for it already.
+
+Using a class selector, give the .cat-right-ear element a left and right border of 35px solid transparent each. Also, set the bottom border to 70px solid #5e5e5e.
+Step 28
+Move the right ear into position with a position property set to absolute, a top of -26px, and a left of 163px.
+Step 29
+As you did for the left ear, rotate the right ear at 45 degrees.
+Step 30
+Remove the sharp border of the right ear by setting the border-top-left-radius to 90px and the border-top-right-radius to 10px.
+Step 31
+The ears should always be placed above the part of the head it overlaps. You can do this with the z-index property.
+
+z-index is a property you can use to define the order of overlapping HTML elements. Any element with a higher z-index will always be positioned over an element with a lower z-index.
+
+To see z-index in action, set the z-indexproperty of the left ear to -1.
+Step 32
+That's not the behavior you want. You should make the ears display over the head so the borders that overlap with them don't show.
+
+Instead of -1, set the z-index property of the left ear to 1.
+Step 33
+Set the z-indexproperty of the right ear to 1 so it always stays over the head.
+Step 34
+Most cats have different colors in their ear and the inner part of the same ear. You can implement the same too. That's why you defined a div element for both right and left inner ears a while ago.
+
+Using a class selector, give your .cat-left-inner-ear element a left and right border of 20px solid transparent each. Also give it a bottom border of 40px solid #3b3b4f.
+Step 35
+Move the inner ear into position with a position property set to absolute, a top of 22px, and a left of -20px.
+Step 36
+To remove all the pointed edges of the ear, set a bottom-right and bottom-left border radius of 40% each, a top-left border radius of 90px, and a top-right border radius of 10px.
+Step 37
+It's time to work on the right inner ear. Using a class selector, give your .cat-right-inner-ear element a left and right border of 20px solid transparent. Also, give it a bottom border of 40px solid #3b3b4f.
+Step 38
+Move the right inner ear into position with a position property set to absolute, a top of 22px and a left of -20px.
+Step 39
+As you did for the left inner ear, remove the sharp edges of the right inner ear by setting a bottom-right and bottom-left border radius of 40%, a top-left border radius of 90px, and a top-right border radius of 10px.
+Step 40
+You will now start working on the cat's eyes. Like the ears, the eyes will have inner eyes.
+
+Create a div element with the class cat-eyes. Inside the cat-eyes element, create two div elements with the class cat-left-eye and cat-right-eye respectively.
+Step 41
+Inside the .cat-left-eye element, create another div element with the class cat-left-inner-eye.
+Step 42
+Inside the .cat-right-eye element, create another div element with the class cat-right-inner-eye.
