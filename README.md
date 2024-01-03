@@ -150,3 +150,11 @@ Step 51
 Using a class selector, give your .cat-right-inner-eye element a width of 10px and a height of 20px. Also, give it a background color of #fff.
 Step 52
 Move the right inner eye into position with a position of absolute, a top of 8px, and a left of 18px. Also, give it a border radius of 60% and rotate it at -5deg.
+Step 53
+It's time to work on the nose. In your HTML, create a div element with the class cat-nose.
+Step 54
+Using a class selector, give your .cat-nose element a left and right border of 15px solid transparent each. Also give it a bottom border of 20px solid #442c2c.
+Step 55
+Move the nose into position with a position property of absolute, a top of 108px, and a left of 85px.
+Step 56
+Remove the sharp edges of the nose with border radius of 50% each on the top-left, bottom-right, and bottom-left corners. Also, rotate it at 180 degrees.
