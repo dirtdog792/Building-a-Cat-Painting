@@ -126,3 +126,27 @@ Step 41
 Inside the .cat-left-eye element, create another div element with the class cat-left-inner-eye.
 Step 42
 Inside the .cat-right-eye element, create another div element with the class cat-right-inner-eye.
+Step 43
+Using a class selector, give your .cat-left-eye element a width of 30px and a height of 40px. Also, give it a background-color of #000.
+Step 44
+Move the left eye into position with a position property of absolute a top of 54px, and a left of 39px.
+Step 45
+To make the left eye look like an eye, give it a border radius of 60%. Also, using the transform property, rotate it at 25 degrees.
+Step 46
+Now you will work on the right eye by using the same approach.
+
+Using a class selector, give your .cat-right-eye element a width of 30px and a height of 40px. Also, give it a background color of #000.
+Step 47
+Move the right eye into position with a position property of absolute a top of 54px, and a left of 134px.
+Step 48
+To make the right eye look like an eye, give it a border radius of 60%. Also, using the transform property, rotate it at -25 degrees.
+Step 49
+Those look like eyes, but you can still make them better. That's why you created two inner eyes div elements.
+
+Using a class selector, give your .cat-left-inner-eye element a width of 10px and a height of 20px. Also, give it a background color of #fff.
+Step 50
+Move the left inner eye into position with a position property of absolute, a top of 8px, and a left of 2px. Also, give it a border radius of 60% and rotate it at 10 degrees.
+Step 51
+Using a class selector, give your .cat-right-inner-eye element a width of 10px and a height of 20px. Also, give it a background color of #fff.
+Step 52
+Move the right inner eye into position with a position of absolute, a top of 8px, and a left of 18px. Also, give it a border radius of 60% and rotate it at -5deg.
