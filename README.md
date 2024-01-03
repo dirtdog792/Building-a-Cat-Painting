@@ -158,3 +158,61 @@ Step 55
 Move the nose into position with a position property of absolute, a top of 108px, and a left of 85px.
 Step 56
 Remove the sharp edges of the nose with border radius of 50% each on the top-left, bottom-right, and bottom-left corners. Also, rotate it at 180 degrees.
+Step 57
+Now you will start working on the mouth. There will be a right line and left line for the mouth.
+
+Create a div element with the class cat-mouth.
+Step 58
+Inside your .cat-mouth element, create a div element with the class cat-mouth-line-left and another div with the class cat-mouth-line-right.
+Step 59
+Using a descendant selector, select the two div elements inside the div with class cat-mouth. Give it a width of 30px, a height of 50px, and a border of 2px solid #000.
+Step 60
+You are going to make the two mouth lines into an elliptical shape. So, give the .cat-mouth div selector a border color of black transparent transparent transparent and a border radius of 190%/190px 150px 0 0.
+Step 61
+Using a class selector, give your .cat-mouth-line-left element a position of absolute, a top of 88px and a left of 74px. This would move it into the right position.
+Step 62
+Using the transform property, rotate the left mouth line at 170 degrees.
+Step 63
+Access your .cat-mouth-line-right element with a class selector, then move it into the right position with a position of absolute, a top of 88px and a left of 91px.
+Step 64
+Rotate the right mouth line at 165 degrees.
+Step 65
+The last thing you will work on is the whiskers. There are going to be 6 of them, meaning there will be three on each side.
+
+Create a div element with the class cat-whiskers.
+Step 66
+Inside the .cat-whiskers element, create two div elements with the class cat-whiskers-left and cat-whiskers-right.
+Step 67
+Inside the .cat-whiskers-left element, create three div elements with the classes cat-whisker-left-top, cat-whisker-left-middle, and cat-whisker-left-bottom.
+Step 68
+Inside the .cat-whiskers-right element, create 3 div elements with the class cat-whisker-right-top, cat-whisker-right-middle, and cat-whisker-right-bottom.
+Step 69
+Use a descendant selector to target the three div elements inside your .cat-whiskers-left element. Give it a width of 40px, a height of 1px, and a background-color of #000.
+Step 70
+As you did in the previous step, use a descendant selector to target the three div elements inside your .cat-whiskers-right element. Give it a width of 40px, a height of 1px, and a background-color of #000.
+Step 71
+Using a class selector, move the .cat-whisker-left-top element into place with a position of absolute, a top of 120px, and a left of 52px.
+Step 72
+Rotate the left top whisker at 10 degrees.
+Step 73
+Use a class selector to target the .cat-whisker-left-middle element. Then move it into place with a position property set to absolute, a top of 127px, and a left of 52px.
+Step 74
+Rotate the left middle whisker at 3 degrees.
+Step 75
+Using a class selector, move the .cat-whisker-left-bottom into position with a position of absolute, a top of 134px, and a left of 52px.
+Step 76
+Rotate the left bottom whisker at -3 degrees.
+Step 77
+Now you will work on moving the right whiskers into place. Use class selector to target the .cat-whisker-right-top element and give it a position of absolute, a top of 120px, and a left of 109px.
+Step 78
+Rotate the top-right whisker at -10 degrees.
+Step 79
+Use a class selector to target the cat-whisker-right-middle element, then move the right middle whisker into position with a position of absolute, a top of 127px, and a left of 109px.
+Step 80
+Rotate the right middle whisker at -3 degrees.
+Step 81
+Use class selector to target the .cat-whisker-right-bottom element, then move it into place with a position of absolute, a top of 134px, and a left of 109px.
+Step 82
+Rotate the bottom-right whisker at 3 degrees.
+
+With this final step, your cat painting is now complete.
